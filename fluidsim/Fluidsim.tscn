@@ -1,0 +1,18 @@
+[gd_scene load_steps=5 format=3 uid="uid://djj808oj5iaft"]
+
+[ext_resource type="Shader" uid="uid://cbtawd4em28fe" path="res://Basefluid.gdshader" id="1_jx2uq"]
+[ext_resource type="Script" uid="uid://bx82nqqmoo2cq" path="res://basefluid.gd" id="2_drc8a"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_vv2js"]
+shader = ExtResource("1_jx2uq")
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_n7wjy"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+material = SubResource("ShaderMaterial_vv2js")
+position = Vector2(576, 324)
+scale = Vector2(1152, 648)
+texture = SubResource("PlaceholderTexture2D_n7wjy")
+script = ExtResource("2_drc8a")
