@@ -1,0 +1,14 @@
+[remap]
+
+importer="glsl"
+type="RDShaderFile"
+uid="uid://dlnksa14810a7"
+path="res://.godot/imported/imageintake.glsl-8e43f8b3bd22fe3e087efc43243e62fb.res"
+
+[deps]
+
+source_file="res://imageintake.glsl"
+dest_files=["res://.godot/imported/imageintake.glsl-8e43f8b3bd22fe3e087efc43243e62fb.res"]
+
+[params]
+
